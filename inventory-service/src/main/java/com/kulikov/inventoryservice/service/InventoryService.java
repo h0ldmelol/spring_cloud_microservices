@@ -3,6 +3,7 @@ package com.kulikov.inventoryservice.service;
 import com.kulikov.inventoryservice.dto.InventoryResponse;
 import com.kulikov.inventoryservice.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
